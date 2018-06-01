@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome",
+        "url": "http://localhost/~vitaliy/Upgrade%20Test%20Task%20For%20Steel%20Kivi/",
+        "webRoot": "${workspaceRoot}"
+    },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost/~vitaliy/Upgrade%20Test%20Task%20For%20Steel%20Kivi/",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}
